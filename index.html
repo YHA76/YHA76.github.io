@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraphQL</title>
+    <link rel="stylesheet" href="public/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <div class="loginFormDiv">
+        <form class="loginForm" method="post">
+            <h1 class="formTitle">GraphQL</h1>
+            <input type="text" class="name" placeholder="Username" required>
+            <input type="password" class="password" placeholder="Password" required>
+            <input type="submit" value="Login" class="btnSub">
+            <p class="errorMsg">Please Enter Username and Password</p>
+        </form>
+    </div>
+    <div class="profileDiv">
+        <div class="userIdentificationSection">
+            <div class="imageDiv">
+                <img class="imagePathing" src="" alt="user">
+            </div>
+            <div class="userInformationDiv">
+                <h1 class="usernameTitle"></h1>
+                <p class="userEmail"></p>
+                <p class="userPhoneNumber"></p>
+                <p class="userCampus"></p>
+            </div>
+            <div class="z01-logo">
+                <img src="/public/images/logo.png" alt="logo">
+            </div>
+        </div>
+        <div class="XPSection">
+            <h1 class="XPH1">XP evolution</h1>
+            <svg class="graphXpAmount"></svg>
+        </div>
+        <div class="RatioSection">
+            <h1 class="RatioH1">Ratio evolution</h1>
+            <svg class="graphRatioAmount"></svg>
+        </div>
+        <div class="SkillSection">
+            <h1 class="SkillH1">Skill Go evolution</h1>
+            <svg class="graphSkillAmount"></svg>
+        </div>
+        <div class="third-Section"></div>
+        <div class="graphiqueSection"></div>
+    </div>
+    <script src="public/main.js"></script>
+</body>
+
+</html>
